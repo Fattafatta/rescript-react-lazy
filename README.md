@@ -1,6 +1,6 @@
 # rescript-react-lazy
 
-Minimal bindings to use `React.lazy` with ResScript.
+Minimal bindings to use `React.lazy` with ReScript.
 
 ## Installation
 
