@@ -1,0 +1,23 @@
+{
+  "name": "@fattafatta/rescript-react-lazy",
+  "description": "Minimal ReScript bindings for React.lazy",
+  "version": "0.1.0",
+  "keywords": [
+    "rescript",
+    "react",
+    "binding"
+  ],
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript",
+    "start": "rescript build -w -with-deps"
+  },
+  "dependencies": {
+    "rescript": "^9.1.4",
+    "@rescript/react": "^0.10.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
