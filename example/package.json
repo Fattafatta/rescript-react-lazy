@@ -1,0 +1,26 @@
+{
+  "name": "rescript-react-lazy-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "clean": "rescript clean -with-deps",
+    "format": "rescript format -all",
+    "serve": "vite preview",
+    "start": "vite",
+    "start:rescript": "rescript build -w -with-deps"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@fattafatta/rescript-react-lazy": "^0.1.0",
+    "@jihchi/vite-plugin-rescript": "^4.0.1",
+    "@rescript/react": "^0.10.3",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "rescript": "^9.1.4",
+    "vite": "^3.0.4"
+  }
+}
