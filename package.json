@@ -7,6 +7,9 @@
     "react",
     "binding"
   ],
+  "author": "Fattafatta",
+  "license": "MIT",
+  "repository": "github:Fattafatta/rescript-react-lazy",
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript",
